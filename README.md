@@ -1,2 +1,2 @@
-# loyalnsave-merchant
-Loyal-N-Save Merchant Projects
+# loyalnsave-customer
+Loyal-N-Save Customer Signup Process
