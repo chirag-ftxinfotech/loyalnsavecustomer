@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/thecodercoder/frontend-boilerplate.git"
   },
+  "scripts": {
+    "dev": "gulp"
+  },
   "keywords": [
     "gulp",
     "boilerplate",
@@ -21,19 +24,21 @@
   },
   "homepage": "https://github.com/thecodercoder/frontend-boilerplate#readme",
   "dependencies": {
-    "autoprefixer": "^10.2.6",
-    "browser-sync": "^2.27.4",
-    "cssnano": "^5.0.6",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^9.0.0",
-    "gulp-replace": "^1.1.3",
-    "gulp-sass": "^5.0.0",
-    "gulp-terser": "^2.0.1",
-    "postcss": "^8.3.5",
-    "sass": "^1.35.2"
+    "browser-sync": "^2.27.10",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0"
   },
   "devDependencies": {
-    "gulp-js-import": "^1.0.6"
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-js-import": "^1.0.6",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
