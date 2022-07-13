@@ -99,7 +99,7 @@ html{scroll-behavior:smooth}
   }
   
   .wave {
-    background: url(../../../assets/img/new/wave-animate-2.svg) repeat-x;
+    background: url(../../../assets/img/wave-animate-2.svg) repeat-x;
     position: absolute;
     top: -198px;
     width: 6400px;
@@ -275,7 +275,7 @@ html{scroll-behavior:smooth}
       background: #fff;
     }
     .wave {
-      background: url(../../../assets/img/new/wave-animate-2.svg) repeat-x;
+      background: url(../../../assets/img/wave-animate-2.svg) repeat-x;
       height: 90px;
       top: -95px;
       &:nth-of-type(2) {
@@ -303,7 +303,7 @@ html{scroll-behavior:smooth}
 
 .header-style-1 {
   position: relative;
-  background: url(../../../assets/img/new/bg-1.jpg) top center no-repeat;
+  background: url(../../../assets/img/bg-1.jpg) top center no-repeat;
   background-size: cover;
   .row {
     > * {
@@ -422,7 +422,7 @@ html{scroll-behavior:smooth}
 .section-p2 {
   padding: 30px 0;
   .section-box {
-    background: url(../../../assets/img/new/about-bg.svg) center bottom no-repeat #d4c2f7;
+    background: url(../../../assets/img/about-bg.svg) center bottom no-repeat #d4c2f7;
     background-size: 115%;
     color: #fff;
     padding: 10px 5px 15px;
@@ -442,7 +442,7 @@ html{scroll-behavior:smooth}
   .dot-1, .dot-2 {
     position: absolute;
     z-index: 0;
-    background: url(../../../assets/img/new/dot-1.svg) left top no-repeat;
+    background: url(../../../assets/img/dot-1.svg) left top no-repeat;
     width: 200px;
     height: 250px;
   }
@@ -617,14 +617,14 @@ html{scroll-behavior:smooth}
   }
   &:before {
     content: '';
-    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-1.svg) bottom center no-repeat;
     background-size: 100%;     
     transform: rotate(180deg);
     top: -1px;    
   }
   &:after {
     content: '';
-    background: url(../../../assets/img/new/wave-2.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-2.svg) bottom center no-repeat;
     background-size: 100%;    
     bottom: -1px;
   }
@@ -748,7 +748,7 @@ html{scroll-behavior:smooth}
   position: relative;
   &:before {
     content: '';
-    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-1.svg) bottom center no-repeat;
     background-size: 100%;
     display: block;
     width: 100%;
@@ -760,7 +760,7 @@ html{scroll-behavior:smooth}
   }
   &:after {
     content: '';
-    background: url(../../../assets/img/new/wave-2.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-2.svg) bottom center no-repeat;
     background-size: 100%;
     display: block;
     width: 100%;
@@ -977,7 +977,7 @@ html{scroll-behavior:smooth}
         display: none;
         width: 24px;
         height: 24px;
-        background: url(../../../assets/img/new/tab-arrow.png) center center no-repeat;
+        background: url(../../../assets/img/tab-arrow.png) center center no-repeat;
         position: absolute;
         top: 50%;
         right: -30px;

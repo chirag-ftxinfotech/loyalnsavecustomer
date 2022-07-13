@@ -545,10 +545,10 @@
                                                     <h4>Download App</h4>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            <a href="#"><img src="assets/img/new/nav-img-googleplay.png" alt="" /></a>
+                                                            <a href="#"><img src="assets/img/nav-img-googleplay.png" alt="" /></a>
                                                         </div>
                                                         <div class="col-6">
-                                                            <a href="#"><img src="assets/img/new/nav-img-appstore.png" alt="" /></a>
+                                                            <a href="#"><img src="assets/img/nav-img-appstore.png" alt="" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -591,7 +591,7 @@
                                                 </div>
                                             </div>
                                             <div class="sub-menu-content text-center">
-                                                <p><img src="assets/img/new/nav_img_laptop.png" alt="" /></p>
+                                                <p><img src="assets/img/nav_img_laptop.png" alt="" /></p>
                                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                                                 <div class="row">
                                                     <div class="col-12">
@@ -638,7 +638,7 @@
                                         </div>
                                         <div class="col-24 col-md-12 offset-md-1 rs-img">
                                             <div class="text-center">
-                                                <img src="assets/img/new/api-solution.jpg" alt="" />
+                                                <img src="assets/img/api-solution.jpg" alt="" />
                                             </div>
                                         </div>
                                     </div>                              
@@ -650,7 +650,7 @@
                                     <div class="row align-items-center rs-section">                    
                                         <div class="col-24 col-md-12 rs-img">
                                             <div class="text-center">
-                                                <img src="assets/img/new/developer-driven.jpg" alt="">
+                                                <img src="assets/img/developer-driven.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="col-24 col-md-10 offset-md-1 rs-text">
@@ -672,7 +672,7 @@
                                                 <h3 class="title">Meet Our Fantastic <br />Community of Loyal Clients</h3>
                                                 <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                                             </div>
-                                            <p class="text-center"><a href="#"><img src="assets/img/new/smokers-choice-logo.png"></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#"><img src="assets/img/new/cbd-logo.png"></a></p>
+                                            <p class="text-center"><a href="#"><img src="assets/img/smokers-choice-logo.png"></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#"><img src="assets/img/cbd-logo.png"></a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -689,7 +689,7 @@
                                     <?php for ($x = 0; $x <= 4; $x++) { ?>
                                     <div class="client-box">
                                         <div class="image">
-                                            <img src="assets/img/new/smokerschoice.jpg" alt="" />
+                                            <img src="assets/img/smokerschoice.jpg" alt="" />
                                         </div>
                                         <div class="text">
                                             <p>Our problem solved: a way to communicate and engage with our customers on a platform they actually use. We use social media like Instagram and Facebook, but we just don't get the participation rates we want. Loyal~n~Save gives us the credibility and voice we needed to increase our customer engagement.</p>
@@ -773,7 +773,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><svg class="svg svg-modal-close" aria-hidden="true" role="img"><use href="#svg-modal-close" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-modal-close"></use></svg></button>
                 <div class="modal-image">
                     <div class="mi-inner">
-                        <div class="mb-3"><img src="assets/img/new/logo-black.png" alt="" /></div>
+                        <div class="mb-3"><img src="assets/img/logo-black.png" alt="" /></div>
                         <h3>Sed ut Perspiciatis Unde</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed do eiusmod Lorem ipsum dolor sit amet, consectetur</p>
                         <p class="mt-3"><img src="http://placehold.it/500" alt="" /></p>
@@ -856,11 +856,11 @@
     <div class="modal fade" id="scandatamodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">    
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
-                <p><a href="#"><img src="assets/img/new/scan-data-modal.png" alt="Exciting Reward Tokens" /></a></p>
+                <p><a href="#"><img src="assets/img/scan-data-modal.png" alt="Exciting Reward Tokens" /></a></p>
                 <!-- <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">Close</button>
                     <h2>Important Announcement</h2>
-                    <p><img src="assets/img/new/existing-reward-tokens.jpg" alt="Exciting Reward Tokens" /></p>
+                    <p><img src="assets/img/existing-reward-tokens.jpg" alt="Exciting Reward Tokens" /></p>
                     <p>Altria Group Distribution Company(AGDC) has rolled out Digital Trade Program, and Loyal-n-Save can help you make the most of the newly rolled our DTP.</p>
                     <p>One of Alteria's DTP's essential requirements is having a digital loyaly solution provider. With Loyal-n-Save by your side, you've already fulfilled that requirement. Loyal-n-Save's experienced team is trained to help tobacco and convenience store retailers qualify for all the 3 Altria DTP 2022.</p>
                     <p class="text-center"><a href="#" class="btn btn-primary btn-square btn-lg">Click Here to Get Started</a></p>

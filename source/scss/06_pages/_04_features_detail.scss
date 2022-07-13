@@ -21,10 +21,10 @@
             position: absolute;
             left: 0px;
             bottom: 0px;
-            background: url(../../../assets/img/new/arrow-round-1.svg) left bottom no-repeat;
+            background: url(../../../assets/img/arrow-round-1.svg) left bottom no-repeat;
         }
         &:nth-child(2):after {
-            background: url(../../../assets/img/new/arrow-round-2.svg) left top no-repeat;
+            background: url(../../../assets/img/arrow-round-2.svg) left top no-repeat;
         }
     }
 }
@@ -293,7 +293,7 @@
             left: 50%;
         }
         &:after {
-            background: url(../../../assets/img/new/check.svg) center center no-repeat #29a9e1;
+            background: url(../../../assets/img/check.svg) center center no-repeat #29a9e1;
             background-size: 40px;
             border: 5px solid #fff;
             transform: translate3d(-50%, 0, 0);
@@ -552,7 +552,7 @@
     margin-top: 20px;
     padding: 30px;
     padding-top: 50%;
-    background: url(../../../assets/img/new/download-app-bg.png) center -40px no-repeat #fff1c8;
+    background: url(../../../assets/img/download-app-bg.png) center -40px no-repeat #fff1c8;
     background-size: 100%;
     text-align: center;
     -webkit-border-radius: 20px;

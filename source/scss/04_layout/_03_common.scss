@@ -124,7 +124,7 @@
   }
   &:before {
     content: '';
-    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-1.svg) bottom center no-repeat;
     background-size: 100%;
     transform: rotate(180deg);
     position: absolute;
@@ -132,7 +132,7 @@
   }
   &:after {
     content: '';
-    background: url(../../../assets/img/new/wave-2.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-2.svg) bottom center no-repeat;
     background-size: 100%;
     bottom: -1px;
   }
@@ -210,7 +210,7 @@
       width: 100%;
       position: relative;
       padding: 90px 30px 30px;
-      background: url(../../../assets/img/new/quote-1.svg) 30px 40px no-repeat;
+      background: url(../../../assets/img/quote-1.svg) 30px 40px no-repeat;
       background-size: 40px;
 
       h4 {
@@ -340,7 +340,7 @@
 
 /* Section Graphics */
 .section-adsbanner{
-  background:url(../../../assets/img/new/section-adsbanner.png) 100% no-repeat #f3d312;
+  background:url(../../../assets/img/section-adsbanner.png) 100% no-repeat #f3d312;
   background-position:90%;
   border-radius:20px;
   margin:0;
@@ -568,7 +568,7 @@
       margin-top:10px;
       padding-left:46px;
       &:before{
-        background:url(../../../assets/img/new/date.svg) 50% no-repeat;
+        background:url(../../../assets/img/date.svg) 50% no-repeat;
         height:32px;
         margin-right:10px;
         margin-top:-16px;
@@ -600,12 +600,12 @@
     }
   }
   &:before {
-    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-1.svg) bottom center no-repeat;
     transform: rotate(180deg);
     top: -1px;
   }
   &:after {
-    background: url(../../../assets/img/new/wave-2.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-2.svg) bottom center no-repeat;
     bottom: -1px;
   }
   &.nob:before,
@@ -668,7 +668,7 @@
 
 /* Dot Seprator */
 .seprator-dot {
-  background: url(../../../assets/img/new/dot.jpg) left top repeat #fff;
+  background: url(../../../assets/img/dot.jpg) left top repeat #fff;
   display: block;
   margin: 25px auto;
   max-width: 1010px;
@@ -1341,7 +1341,7 @@
       content: '';
       width: 60px;
       height: 60px;
-      background: url(../../../assets/img/new/notes.png) center center no-repeat #5c14e3;
+      background: url(../../../assets/img/notes.png) center center no-repeat #5c14e3;
       position: absolute;
       left: 0;
       top: 32px;
@@ -1548,7 +1548,7 @@
             display: block;
             width: 12px;
             height: 12px;
-            background: url(../../../assets/img/new/bullet-flower.svg) center center no-repeat;
+            background: url(../../../assets/img/bullet-flower.svg) center center no-repeat;
             position: absolute;
             top: 16px;
             left: 5px;
@@ -1557,7 +1557,7 @@
           &:hover {
             color: #ff0988;
             &:before {
-              background-image: url(../../../assets/img/new/bullet-flower-hover.svg);
+              background-image: url(../../../assets/img/bullet-flower-hover.svg);
             }
           }
       }
@@ -1566,7 +1566,7 @@
 .sidebar-widgetads {
   margin-bottom: 30px;
   padding: 20px;
-  background: url(../../../assets/img/new/nav_bg_features.jpg) center top no-repeat;
+  background: url(../../../assets/img/nav_bg_features.jpg) center top no-repeat;
   background-color: #f6e4f4;
   background-size: 100%;
   overflow: hidden;

@@ -174,7 +174,7 @@
   position: relative;
   &:before {
     content: '';
-    background: url(../../../assets/img/new/wave-1.svg) bottom center no-repeat;
+    background: url(../../../assets/img/wave-1.svg) bottom center no-repeat;
     background-size: 100%;
     display: block;
     width: 100%;
@@ -247,7 +247,7 @@
     }
     @include media_min(md) {
       flex-direction: row;
-      background: url(../../../assets/img/new/step-shape.svg) center 25px no-repeat;
+      background: url(../../../assets/img/step-shape.svg) center 25px no-repeat;
       background-size: 550px;
       .step-item {
         padding: 20px;
