@@ -1,0 +1,33 @@
+.accordion {
+    &.accordion-faq {
+        .card {
+            border-bottom: 1px solid rgba(0,0,0,.2);
+        }
+        .card-header {
+            button {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            padding: 24px 50px;
+            background: url(../../../assets/img/new/qa.svg) 3px 18px no-repeat;
+            background-size: 40px;
+            &:not(.collapsed) {
+                background-image: url(../../../assets/img/new/qa-active.svg);
+            }        
+            &:not(.collapsed):before {
+                transform: rotate(360deg);
+            }
+            &:not(.collapsed):after {
+                transform: rotate(180deg);
+            }
+            @include media_min(lg) {
+                font-size: 24px;
+            }
+            }      
+        }
+        .collapse .card-body,
+        .collapsing .card-body {
+            padding-left: 50px;
+        }
+    }
+}

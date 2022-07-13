@@ -1,0 +1,18 @@
+.btn {
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,transform .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,transform .15s ease-in-out;
+  &:hover {
+    transform: translate3d(0,-3px,0);
+    box-shadow: 0px 10px 25px rgba(0,0,0,.2);
+  }
+}
+
+.btn-square {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn-rounded {
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}

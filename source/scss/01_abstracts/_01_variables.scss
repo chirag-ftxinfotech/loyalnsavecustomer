@@ -1,0 +1,103 @@
+//////// Custom Fonts
+ 
+ @font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Medium.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Bold.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-DemiBold.woff2') format('woff2'),
+        url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+//////// Custom Colors
+$color-black: #000000;
+$color-white: #ffffff;
+$color-overlay1: rgba(236,128,27,0.9);
+$color-overlay2: rgba(236,116,4,0.9);
+
+$bg-light1: #efefef;
+$bg-light2: #e5e5e5;
+$bg-btn-hover: #505050;
+
+$border-link: #a0a0a0;
+$border-reviews: #dcdcdc;
+
+//////// Typography
+
+$font-family: 'Avenir Next', sans-serif;
+
+$h1-size: 52px;
+$h2-size: 42px;
+$h3-size: 32px;
+
+$h1-size-tablet: 40px;
+$h2-size-tablet: 30px;
+$h3-size-tablet: 20px;
+
+$h1-size-mobile: 30px;
+$h2-size-mobile: 28px;
+$h3-size-mobile: 20px;
+
+$h1-line-height: 68px;
+$h2-line-height: 36px;
+$h3-line-height: 28px;
+
+$h1-line-height-tablet: 46px;
+$h2-line-height-tablet: 36px;
+$h3-line-height-tablet: 26px;
+
+$h1-line-height-mobile: 36px;
+$h2-line-height-mobile: 34px;
+$h3-line-height-mobile: 26px;
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 24;
+$grid-gutter-width: 10px;
+
+$black:#000;
+$white:#fff;
+$priamary:#461a82;
+$secondary:#a3369c;
+$bannerheading:#fefefe;
+$gradient-top:#461a82;
+$gradient-bottom:#a3369c;
+$button:#ff098e;
+$button-hover:#521e92;
+$orange:#f18931;
+$green:#86d052;
+$text-primary:#8783a2;
+$text-secondary:#212529;
+$light-blue:#daf4ff;
+$light-orange:#ffebda;
+$light-green:#e9ffd2;

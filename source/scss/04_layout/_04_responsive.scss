@@ -1,0 +1,33 @@
+@include media_min(xxl) {
+    // min-width: 1400px
+}
+@include media_min(xl) {
+    // min-width: 1200px
+}
+@include media_min(lg) {
+    // min-width: 992px
+}
+@include media_min(md) {
+    // min-width: 768px
+}   
+@include media_min(sm) {
+    // min-width: 576px
+}
+@include media(xs) {
+    // max-width: 575px
+}
+@include media(sm) {
+    // max-width: 767px
+}
+@include media(md) {
+    // max-width: 991px
+}
+@include media(lg) {
+    // max-width: 1199px
+}
+@include media(xl) {
+    // max-width: 1399px
+}
+@include media(xxl) {
+    // max-width: 1599px
+}  

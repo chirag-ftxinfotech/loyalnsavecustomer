@@ -1,0 +1,248 @@
+:root {
+	--bgcolor-1: #090b1a;
+	--bgcolor-2: #16182d;
+	--bgcolor-3: #21253f;
+	--bgcolor-4: #323650;
+	--bgcolor-4: #8c94a3;
+	--primary-color: #f3f3fa;
+	--secondary-color: #9494a2;	
+	--white-color: #fff;
+	--black-color: #000;
+}
+.dark-theme {
+	background: var(--bgcolor-1);
+	color: var(--primary-color);
+
+	#header.header-sticky {
+		background: var(--bgcolor-1);
+		.logo .logo-white {
+			display: block;
+		}
+		.logo .logo-black {
+			display: none;
+		}
+
+		.header-right a.link, .navigation nav .menu-text a,
+		.mobile-nav__toggle svg {
+			color: var(--white-color);
+		}
+	}
+
+	.header-app {
+		.header-app-banner {
+			background: var(--bgcolor-2);
+
+			h3 {
+				color: var(--primary-color);
+			}
+
+			.round:before {
+				border-color: var(--bgcolor-1);
+			}
+		}
+
+		.ocean {
+			background: var(--bgcolor-1);
+		}
+
+		.wave {
+			background-image: url(../../../assets/img/new/dark/wave-animate-2.svg);
+		}
+	}
+
+	.nav-tabs {
+		border-bottom-color: var(--bgcolor-2);
+
+		.nav-item.show .nav-link, 
+		.nav-link.active {
+			background: var(--bgcolor-1);
+		}
+
+		.nav-link:before {
+			background: var(--bgcolor-1);
+		}
+	}
+
+	.header-style-1 {
+		background: var(--bgcolor-1);
+		&.inner-title {
+			background: var(--bgcolor-2);
+		}
+	}
+
+	.section-p1 {
+		.nav-tabs .nav-link {
+			color: var(--secondary-color);
+	
+			&:hover,
+			&.active {
+				color: var(--primary-color);
+			}
+		}
+
+		.sc1-icon-list h5 {
+			color: var(--primary-color);
+		}
+	}
+
+	.section-p2 {
+		.dot-1, .dot-2 {
+			background-image: url(../../../assets/img/new/dark/dot-1.svg);
+		}
+		.section-box {
+			background-image: url(../../../assets/img/new/dark/about-bg.svg);
+			background-color: var(--bgcolor-2);
+		}
+	}
+
+	.icons-cards {
+		.icons-inner {
+			background: var(--bgcolor-2);
+			-webkit-box-shadow: 0 15px 30px rgba(31, 31, 35,.3);
+      		box-shadow: 0 15px 30px rgba(31, 31, 35,.3);
+		}
+	}
+
+	.section-waves {
+		&.section-light {
+			background: var(--bgcolor-2);
+		}
+		&.section-blue {
+			background: var(--bgcolor-3);
+		}  
+		&.section-pink {
+			background: var(--bgcolor-2);
+		}
+
+		&:before {
+			background-image: url(../../../assets/img/new/dark/wave-1.svg);
+		}
+		&:after {
+			background-image: url(../../../assets/img/new/dark/wave-2.svg);			
+		}
+	}
+
+	.ce-tabbing {
+		background: var(--bgcolor-1);
+		border-color: var(--bgcolor-3);
+
+		.nav-tabs .nav-link {
+			background: var(--bgcolor-2);
+			color: var(--secondary-color);
+
+			&:hover,
+			&.active {
+				color: var(--primary-color);
+			}
+		}
+	}
+
+	.section-p3 {
+		.feature-box {
+			.info {
+				background: var(--bgcolor-1);
+			}
+			.title {
+				color: var(--primary-color);
+			}
+		}
+	}
+
+	.section-p4 {
+		background: var(--bgcolor-2);
+
+		&:before {
+			background-image: url(../../../assets/img/new/dark/wave-1.svg);
+		}
+		&:after {
+			background-image: url(../../../assets/img/new/dark/wave-2.svg);			
+		}
+
+		.sc-icon-list h5 {
+			color: var(--primary-color);
+		}
+	}
+
+	.section-p5 {
+		.industries-box span {
+			background: var(--bgcolor-2);
+			color: var(--primary-color);
+		}
+	}
+
+	.section-p6 {
+		background: var(--bgcolor-2);
+
+		&:before {
+			background-image: url(../../../assets/img/new/dark/wave-1.svg);
+		}
+		&:after {
+			background-image: url(../../../assets/img/new/dark/wave-2.svg);			
+		}
+	}
+
+	.section-testimonial {
+		.slick-client .client-box {
+			background: var(--bgcolor-3);
+		}
+	}
+
+	.section-client {
+		background: var(--bgcolor-2);
+
+		&:before {
+			background-image: url(../../../assets/img/new/dark/wave-1.svg);
+		}
+		&:after {
+			background-image: url(../../../assets/img/new/dark/wave-2.svg);			
+		}
+	}
+
+	.section-getintouch {
+		background: var(--bgcolor-3);
+
+		&:before {
+			background-image: url(../../../assets/img/new/dark/waves-1.png);
+		}
+
+		.form {
+			background: var(--bgcolor-1);
+			border-color: var(--bgcolor-2);
+		}
+
+		.dot-1, .dot-2 {
+			background-image: url(../../../assets/img/new/dark/dot-1.svg);
+		}
+	}
+
+	#footer {
+		background: var(--bgcolor-2);
+		&:before {
+			background-color: var(--bgcolor-1);
+			background-image: url(../../../assets/img/new/dark/f-top.png);
+		}
+		&.footer-home:before {
+			background-color: var(--bgcolor-3);
+			background-image: url(../../../assets/img/new/dark/wave-f.svg);
+		}
+	}
+
+	.card-feature {
+		.cfi-inner {
+			color: var(--bgcolor-1);
+		}
+	}
+
+	.section-i5 {
+		background: var(--bgcolor-1);
+		&:before {
+			background: var(--bgcolor-2);
+		}
+	}
+
+	.program-items {
+		.program-inner {
+			background: var(--bgcolor-3);
+		}
+	}
+}

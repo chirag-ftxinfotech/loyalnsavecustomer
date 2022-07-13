@@ -1,0 +1,103 @@
+.section-f1 {
+    margin: 0;
+    padding: 60px 0;
+    .card-items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;        
+    }
+    .card-item {
+        padding: 0;
+        counter-increment: feature-counter 1;
+        &:nth-child(odd) {
+            .card-inner {
+                @media (min-width: 992px){
+                    .image {
+                        order: 2;
+                    }
+                    .info {
+                        order: 1;
+                    }
+                }
+            }
+        }
+        &:after {
+            content: '';
+            background: url(../../../assets/img/new/dot.jpg) left top repeat #fff;
+            display: block;
+            margin: 50px auto;
+            max-width: 1010px;
+            width: 100%;
+            height: 90px;
+        }
+        &:last-child:after {
+            display: none;
+        }
+    }
+    .card-inner {
+        background: #fff;
+        padding: 0 0 25px;
+        display: flex;
+        flex-direction: column;            
+    }
+    .image {
+        margin-bottom: 20px;
+        text-align: center;
+        flex: 1 0 0%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .info {
+        position: relative;
+        flex: 1 0 0%;
+        width: 100%;
+        max-width: 100%;
+        &:before {
+            content: "0" counter(feature-counter);
+            font-size: 80px;
+            font-weight: 600;
+            opacity: 0.1;
+            position: absolute;
+            left: 0px;
+            top: -42px;
+        }
+    }      
+    .title {
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .description {
+        font-size: 18px;
+        p ~ p {
+            margin-top: 20px;
+        }
+    }
+    @include media_min(lg) {
+        .card-item {
+            padding: 0 15px;
+        }
+        .card-inner {
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding: 35px;
+        }
+        .image {
+            flex: 0 0 auto;
+            width: 45%;
+        }
+        .info {
+            padding-left: 140px;
+            padding-right: 25px;
+            &:before {
+                font-size: 100px;
+                top: -55px;
+            }
+        }
+        .title {
+            font-size: 32px;
+        }
+    }
+    
+}
